@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mongostart"
+version = "0.1.0"
+description = ""
+authors = ["Artem <atlas.monker@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mongoengine = "^0.27.0"
+redis = "^4.5.4"
+redis-lru = "^0.1.2"
+pika = "^1.3.1"
+faker = "^18.4.0"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
